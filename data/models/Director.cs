@@ -7,9 +7,7 @@
 
         public string name_director { get; set; }
 
-        public string data_director { get; set;}
-
-        public int type_director { get; set; }
+        public string data_director { get; set; }
 
         public string picture_director { get; set; }
 
