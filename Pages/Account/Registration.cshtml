@@ -1,0 +1,30 @@
+﻿@page
+@model Play_New.Pages.Account.RegistrationModel
+@{
+	ViewData["Title"] = "Register";
+}
+
+<h2>Register</h2>
+
+<form method="post">
+    <div>
+        <label for="Login">Login</label>
+        <input type="text" id="Login" asp-for="NewUser.Login" />
+        <span asp-validation-for="NewUser.Login" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="Password">Password</label>
+        <input type="password" id="Password" asp-for="NewUser.Password" />
+        <span asp-validation-for="NewUser.Password" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="Name_User">Name</label>
+        <input type="text" id="Name_User" asp-for="NewUser.Name_User" />
+    </div>
+    <div>
+        <label for="Email">Email</label>
+        <input type="email" id="Email" asp-for="NewUser.Email" />
+        <span asp-validation-for="NewUser.Email" class="text-danger"></span>
+    </div>
+    <button type="submit">Register</button>
+</form>
