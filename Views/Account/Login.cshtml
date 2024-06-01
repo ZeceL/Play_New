@@ -4,24 +4,50 @@
     ViewData["Title"] = "Login";
 }
 
-<h2>Login</h2>
-
-<form asp-action="Login" method="post">
-    <div class="form-group">
-        <label asp-for="Username"></label>
-        <input asp-for="Username" class="form-control" />
-        <span asp-validation-for="Username" class="text-danger"></span>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/css/log_in_to_the_site.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="gradient-bg"></div>
+        <img class="image-left" src="~/assets/images/image(1).png" />
+        <img class="image-right" src="~/assets/images/image.png" />
+        <div class="form-container">
+            <div class="form-title">Вход на Play.New</div>
+            <div class="input-container">
+                <div class="input-title">Электронная почта или имя пользователя</div>
+                <input type="text" class="input-box" placeholder="Username">
+            </div>
+            <div class="input-container">
+                <div class="input-title">Пароль</div>
+                <input type="password" class="input-box" placeholder="Password">
+            </div>
+            <div class="button-container">
+                <div class="button-title">Забыли пароль?</div>
+                <div class="line"></div>
+            </div>
+            <div class="register-container">
+                <div class="register-button"></div>
+                <img class="register-img" src="~/assets/images/logo1.png" />
+            </div>
+            <div class="footer">
+                <div class="footer-text">Нет аккаунта? Регистрация на Play.New</div>
+                <div class="footer-line"></div>
+            </div>
+        </div>
     </div>
-    <div class="form-group">
-        <label asp-for="Password"></label>
-        <input asp-for="Password" type="password" class="form-control" />
-        <span asp-validation-for="Password" class="text-danger"></span>
-    </div>
-    <button type="submit" class="btn btn-primary">Login</button>
-</form>
-
 @section Scripts {
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
 }
+</body>
+</html>

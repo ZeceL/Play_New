@@ -1,0 +1,157 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    width: 1920px;
+    height: 974px;
+    position: relative;
+    background: white;
+}
+
+.gradient-bg {
+    width: 1920px;
+    height: 974px;
+    position: absolute;
+    background: linear-gradient(180deg, #2A516D 35%, rgba(29.79, 57.10, 76.88, 0.50) 100%);
+}
+
+.image-left, .image-right {
+    width: 960px;
+    height: 974px;
+    position: absolute;
+    mix-blend-mode: overlay;
+}
+
+.image-left {
+    left: 0;
+    top: 0;
+}
+
+.image-right {
+    left: 960px;
+    top: 0;
+}
+
+.form-container {
+    width: 588px;
+    height: 691px;
+    position: absolute;
+    left: 690px;
+    top: 159px;
+}
+
+.form-title {
+    width: 588px;
+    height: 104px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 69px;
+    font-weight: 700;
+}
+
+.input-container {
+    width: 578px;
+    height: 103px;
+    position: absolute;
+}
+
+    .input-container:nth-child(2) {
+        top: 139px;
+    }
+
+    .input-container:nth-child(3) {
+        top: 261px;
+    }
+
+.input-title {
+    width: 578px;
+    height: 22px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.input-box {
+    width: 578px;
+    height: 62px;
+    position: absolute;
+    top: 41px;
+    background: rgba(217, 217, 217, 0.31);
+    border-radius: 10px;
+    border: 5px solid black;
+    padding-left: 17px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    outline: none;
+}
+
+    .input-box::placeholder {
+        color: rgba(255, 255, 255, 0.31);
+    }
+
+.button-container {
+    width: 413px;
+    height: 62px;
+    position: absolute;
+    left: 63px;
+    top: 390px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.button {
+    width: 269px;
+    height: 77px;
+    position: absolute;
+    top: 434px;
+    left: 135px;
+    background: black;
+    border-radius: 20px;
+}
+
+.register-container {
+    width: 269px;
+    height: 77px;
+    position: absolute;
+    top: 434px;
+    left: 135px;
+    color: #000;
+}
+
+.register-img {
+    width: 183px;
+    height: 52px;
+    position: absolute;
+    left: 43px;
+    top: 13px;
+}
+
+.footer {
+    width: 512px;
+    height: 62px;
+    position: absolute;
+    top: 629px;
+    left: 14px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.footer-line {
+    width: 489px;
+    height: 0px;
+    position: absolute;
+    left: 12px;
+    top: 50px;
+    border: 1px solid white;
+}
