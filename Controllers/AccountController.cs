@@ -41,7 +41,7 @@ namespace Play_New.Controllers
                 if (user != null && BCrypt.Net.BCrypt.Verify(model.Password, user.Password))
                 {
 					// Успешная авторизация, можно создать сессию, куки и т.д.
-					// Пример: HttpContext.Session.SetString("UserId", user.Id_User.ToString());
+					//HttpContext.Session.SetString("UserId", user.Id_User.ToString());
 					Console.WriteLine("User authenticated successfully.");
 					return RedirectToAction("Index", "Home");
                 }

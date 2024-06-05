@@ -25,4 +25,8 @@
     <None Include="wwwroot\assets\images\image.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\index\" />
+  </ItemGroup>
+
 </Project>

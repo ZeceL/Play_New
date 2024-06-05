@@ -1,0 +1,135 @@
+/* BEGIN EXTERNAL SOURCE */
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #player-container {
+            width: 1920px;
+            height: 113px;
+            position: relative;
+            background: white;
+        }
+
+        #player-bg {
+            width: 1920px;
+            height: 113px;
+            position: absolute;
+            background: #181818;
+        }
+
+        #track-details {
+            width: 389px;
+            height: 70px;
+            position: absolute;
+            top: 22px;
+            left: 19px;
+        }
+
+            #track-details img {
+                width: 70px;
+                height: 70px;
+                position: absolute;
+            }
+
+        #track-title {
+            width: 300px;
+            position: absolute;
+            top: 12px;
+            left: 89px;
+            color: white;
+            font-size: 18px;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 700;
+        }
+
+        #track-artist {
+            width: 300px;
+            position: absolute;
+            top: 35px;
+            left: 89px;
+            color: #B3B3B3;
+            font-size: 15px;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 700;
+        }
+
+        #controls-container {
+            width: 734px;
+            height: 76px;
+            position: absolute;
+            top: 19px;
+            left: 594px;
+        }
+
+            #controls-container .progress-bar {
+                width: 516.65px;
+                height: 5px;
+                position: absolute;
+                top: 64px;
+                background: #535353;
+                border-radius: 2.5px;
+            }
+
+            #controls-container .progress {
+                width: 0;
+                height: 5px;
+                position: absolute;
+                top: 64px;
+                background: #C4C4C4;
+                border-radius: 2.5px;
+            }
+
+        #time-start, #time-end {
+            position: absolute;
+            color: #C4C4C4;
+            font-size: 14px;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 700;
+            letter-spacing: 0.56px;
+        }
+
+        #time-start {
+            left: 0;
+            top: 57px;
+        }
+
+        #time-end {
+            right: 0;
+            top: 57px;
+        }
+
+        #prev-btn, #next-btn {
+            width: 12px;
+            height: 13px;
+            position: absolute;
+        }
+
+        #prev-btn {
+            left: 315px;
+            top: 14px;
+        }
+
+        #next-btn {
+            left: 417px;
+            top: 14px;
+            transform: rotate(180deg);
+            transform-origin: 0 0;
+        }
+
+        #play-btn {
+            width: 44px;
+            height: 42.5px;
+            position: absolute;
+            left: 350px;
+            top: 0;
+            cursor: pointer;
+        }
+    
+/* END EXTERNAL SOURCE */
